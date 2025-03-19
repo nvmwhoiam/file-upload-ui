@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta name="description"
+        content="This application provides a sleek and user-friendly interface for file uploads. It features a drag-and-drop zone, file browser button, and real-time upload progress tracking for multiple files. The UI is built with modern web technologies and follows best practices for accessibility and user experience.">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/styles.css">
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon-32x32.png">
+    <link rel="canonical" href="https://lynqis.io/file-upload-ui" />
+    <meta name="author" content="nvmwhoiam">
+    <meta name="keywords" content="">
+    <meta name="theme-color" content="#1a1f2e">
+    <meta name="color-scheme" content="dark light">
+    <meta name="robots" content="index, follow">
+    <meta name="title" content="File Upload UI | Lynqis.io">
+    <title>File Upload UI | Lynqis.io</title>
+</head>
+
+<body>
+    <main class="main_container">
+
+        <section class="section_container">
+
+            <div class="upload_area" id="dropZone">
+
+                <div class="overlay">
+                    <h2>Drop files here</h2>
+                </div>
+
+                <div class="upload_content">
+                    <h2>Drag & Drop files here</h2>
+
+                    <p>or</p>
+
+                    <button type="button" class="btn_primary" id="browseBtn" aria-label="Browse Files">
+                        Browse Files
+                    </button>
+
+                    <input type="file" name="fileInput" multiple hidden>
+                </div>
+
+            </div>
+
+            <div class="upload_list" id="uploadList"></div>
+
+        </section>
+
+
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
