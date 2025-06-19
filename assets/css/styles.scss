@@ -7,11 +7,15 @@
 
 .main_container {
     padding: var(--md-p);
-    @include flex-center();
+
+    .header_container {
+        margin-bottom: var(--xl-p);
+    }
 
     .section_container {
         width: 100%;
         max-width: 600px;
+        margin: 0 auto;
 
         .upload_area {
             border: 2px dashed var(--border-color);
